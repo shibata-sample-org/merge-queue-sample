@@ -4,4 +4,6 @@ git switch -c ${BRANCH}
 git commit -m "empty commit" --allow-empty
 git push origin ${BRANCH}
 gh pr create -f
-# gh merge
+sleep 3
+gh merge
+git switch main
