@@ -8,4 +8,3 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: sleep 60s
-      - run: exit 1
